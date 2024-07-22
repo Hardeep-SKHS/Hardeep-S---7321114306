@@ -1,0 +1,8 @@
+.in3{
+    border: 2px solid rgb(130, 248, 4);
+    text-align: center;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(200, 255, 0);
+    cursor: pointer;
+}
