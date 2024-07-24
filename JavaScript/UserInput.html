@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input & inner HTML</title>
+    <script>
+        function calci(){
+            let a = parseInt( document.getElementById("n1").value);
+            let b = parseInt( document.getElementById("n2").value);
+            let op = document.getElementById("op").value;
+
+            let result = "";
+
+            if (op == "add") {
+                result = "Addition: "+ (a+b);
+            }
+            if (op == "sub") {
+                result = "subtraction: "+ (a-b);
+            }
+            if (op == "div") {
+                result = "Division: "+ (a/b);
+            }
+            if (op == "mult") {
+                result = "Multiplication: "+ (a*b);
+            }
+            document.getElementById("Result").innerHTML = result;
+        }
+    </script>
+    
+</head>
+<body>
+    <center>
+    Enter First Number <input type="text" id="n1"/>
+    <br><br>
+    Enter Second Number <input type="text" id="n2"/>
+    <br><br>
+    Select the Operation <select id="op">
+        <option value="add">Addition</option>
+        <option value="sub">Subraction</option>
+        <option value="div">Division</option>
+        <option value="mult">Multiplication</option>
+    </select>
+    <br><br>
+    
+   <button onclick="calci()">Calculate</button>
+
+    <div id="Result">
+
+    </div>
+    </center>
+</body>
+</html>

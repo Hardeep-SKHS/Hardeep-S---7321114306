@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+    <center><h1>Polindrome Checker</h1>
+        <hr>
+</head>
+<body>
+
+    
+    
+    Enter Your Text : <input id="n" type="text" onblur="pali()" placeholder="Enter Word" />
+    <br><br>
+    <button onclick="pali()" >Check</button>
+    <br>
+    <br>
+    <u><div id="result"></div></u>
+
+
+    <script>
+        function pali() {
+            const a = document.getElementById("n").value;
+            const reverse = a.split("").reverse().join("");
+            
+            if (a === reverse) {
+                document.getElementById("result").innerHTML="Palindrome";
+            }
+            else {
+                document.getElementById("result").innerHTML="Not Palindrome";
+            }
+
+        }
+    </script>
+
+</body>
+</html>

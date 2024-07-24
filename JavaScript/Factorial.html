@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+    <script>
+        function abc() {
+            let a = document.getElementById("n1").value;
+            var f = 1;
+           
+            for (let index = 1; index <= a; index++) {
+                f = f * index;
+            }
+         document.getElementById("f").innerHTML=f;   
+        }
+    </script>
+</head>
+<body>
+    Number <input type="text" id="n1" value="Enter the Number" 
+               onfocus="this.value=' '"  onblur="abc()"/>
+               <br><br>
+    <button onclick="abc()">Calculate</button>
+    <br><br>
+    <div
+    id="f"></div>
+</body>
+</html>
