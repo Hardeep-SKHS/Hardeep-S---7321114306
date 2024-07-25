@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literals Array</title>
+    
+</head>
+<body>
+    
+       Enter the value <input type="text" id="n" placeholder="Number">
+       <br><br>
+       <button onclick="fac()">Submit</button>
+       <br><br>
+       <div id="resultdiv"></div>
+
+    <script>
+        const fac = () => {
+            let n = parseInt(document.getElementById("n").value);
+            let result = "<table border = '1' width = '50'%>";
+            result += "<tr><th>Number</th><th>Factorial</th></tr>";
+            for (let k = 1; k <=n; k++) {  
+
+            let fa = 1;
+            for (let i = 1; i <= k; i++) {
+                fa = fa * i;                
+            }
+            result += "<tr><td>"+k+"</td><td>"+fa+"</td></tr>";
+        }
+            result += "</table>";
+            document.getElementById("resultdiv").innerHTML=result;
+        
+    }
+    </script>
+</body>
+</html>
