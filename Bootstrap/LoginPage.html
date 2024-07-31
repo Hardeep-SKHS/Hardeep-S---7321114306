@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <style>
+        #back{
+            border: 1px solid rgb(131, 243, 243);
+            background-color: rgb(131, 243, 243);
+            width: 400px;
+            height: 400px;
+            margin-top: 100px;
+            margin-left: 35%;
+            border-radius: 10px;
+
+        }
+        #front{
+            border: 1px solid white;
+            background-color: white;
+            margin: 2px;
+            margin-top: 9px;
+            width: 394.25px;
+            height: 344px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        #in{
+            margin-top: 18px;
+            margin-left: 10px;
+        }
+        #for{
+            text-align: end;
+            margin-right: 10px;
+            margin-top: -20px;
+            
+        }
+        #ep{
+            width: 350px;
+            margin: 40px 0 0 20px;
+        }
+        .remember{
+            margin-right: 260px;
+            margin-top: 30px;
+        }
+        #fa{
+            height: 50px;
+            width: 150px;
+            border-radius: 5px;
+        }
+        #lo{
+            height: 50px;
+            width: 70px;
+            border-radius: 5px;
+        }
+        #bu{
+            margin-right: 150px;
+            margin-top: 10px;
+        }
+        b{
+            margin-right: 20px;
+        }
+        .sign{
+            margin-right: 130px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+    <div id="back">
+        <h4 id="in">Sign In</h4>
+        <h5 id="for" class="btn-link">Forgot Password?</5><br>
+        <div id="front">
+        
+            <div id="ep">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input id="email" type="email" class="form-control" name="email" placeholder="Email">
+                  </div>
+                  <br><br>
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+                  </div>
+            </div>
+            <label class="remember"><input type="checkbox"> Remember Me</label>
+            <div id="bu">
+            <button id="lo" type="button" class="btn-success">Login</button>
+            <button id="fa" type="button" class="btn-info">Login with facebook</button>
+            </div>
+            <b>______________________________________________</b>
+            <label class="sign" ><span class="text">Don't have an account! <a href="">Sign Up Here</a> </span></label>
+        </div>        
+    </div>
+</form>
+</body>
+</html>

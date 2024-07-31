@@ -1,0 +1,122 @@
+body{
+    
+    background-color: rgb(246, 243, 243);
+}
+#border{
+    background-color: rgb(178, 13, 13);
+    height: 30px;
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    }
+#brand{
+    padding: 5px;
+}
+#brand:hover{
+    cursor: pointer;
+}
+#redbo{
+    background-color: rgb(227, 0, 71);
+    height: 65px;
+    margin-left: 0px;   
+}
+.logo{
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: -60px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.sea{
+    margin: 10px 30px;
+    height: 40px;
+    width: 490px;
+    border: none;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    padding-left: 30px;
+}
+.sea:hover{
+    border: none;
+    cursor: pointer;
+}
+#searc{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 150px;
+    margin: 9px -2px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 15px;  
+}
+#cart{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 17px;
+    margin-top: 20px;
+}
+#pro{
+    color: white;
+}
+
+#sidebox{
+    border: none;
+    background-color: white;
+    width: 200px;
+    margin-left: 70px;
+    padding: 10px 10px 8px 20px;
+    font-size: smaller;
+    color: gray;
+    border-radius: 3px;
+}
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.fash{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.ceimg{
+    width: 50%;
+    height: 50%;
+    margin-left: 300px;
+    margin-top: -770px;
+}
+.imge{
+    width: 50%;
+    height: 50%;
+    margin-left: 300px;
+    margin-top: -770px;
+}
+#table1{
+    margin-left: 300px;
+    margin-top: -204px;
+    height: 50px;
+    width: 760px;
+    background-color: white;
+}
+td{
+    text-align: center;
+}
+td:hover{
+    cursor: pointer;
+    border-bottom: 2px solid;
+}
+.td{
+    height: 250px;
+    width: 1100px;
+    background-color: white;
+}
+.tp{
+    height: 50px;
+    width: 1100px;
+    background-color: white;
+}
